@@ -145,7 +145,7 @@ class RequestVoter extends Component {
         </FormGroup>
 
         <FormGroup>
-            <div className="form-label">Enter Aadhar Number - </div>
+            <div className="form-label">Enter Voter ID - </div>
             <div className="form-input">
               <FormControl
                   input = 'textArea'
@@ -156,7 +156,7 @@ class RequestVoter extends Component {
         </FormGroup>
 
         <FormGroup>
-            <div className="form-label">Enter Constituency - </div>
+            <div className="form-label">Enter Region ID - </div>
             <div className="form-input">
               <FormControl
                   input = 'text'

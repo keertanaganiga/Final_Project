@@ -9,6 +9,7 @@ class Navigation extends Component {
                     <Link to='/CandidateDetails'>CANDIDATES</Link>
                     <Link to='/RequestVoter'>APPLY FOR VOTER</Link>
                     <Link to='/Vote'>VOTE</Link>
+
                 </div>
         );
     }

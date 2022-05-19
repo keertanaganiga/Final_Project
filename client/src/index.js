@@ -9,8 +9,7 @@ import Vote from './components/Vote';
 import Result from './components/Result';
 import Admin from './components/Admin';
 import Home from './components/Home';
-import Login from './components/Login';
-
+// import Login from './components/Login'
 // import * as serviceWorker from './serviceWorker';
 
 import { Router, Switch, Route } from 'react-router-dom';
@@ -21,12 +20,13 @@ import history from './history';
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
+//<Route  path='/' component={Login} />
 
 ReactDOM.render(
     <Router history={history}>
         <Switch>
             <Route  path='/Home' component={Home} />
-            <Route  path='/' component={Login} />
+            {/* <Route  path='/' component={Login} /> */}
             <Route path='/AddCandidate' component={AddCandidate} />
             <Route path='/CandidateDetails' component={CandidateDetails} />
             <Route path='/RequestVoter' component={RequestVoter} />

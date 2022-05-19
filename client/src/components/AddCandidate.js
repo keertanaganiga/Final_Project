@@ -17,7 +17,7 @@ class AddCandidate extends Component {
       web3: null,
       name:'',
       party:'',
-      manifesto:'',
+      Education :'',
       constituency:'',
       candidates: null,
       isOwner:false
@@ -148,7 +148,7 @@ class AddCandidate extends Component {
           </FormGroup>
 
           <FormGroup>
-              <div className="form-label">Enter Manifesto - </div>
+              <div className="form-label">Enter Education - </div>
               <div className="form-input">
                 <FormControl
                     input = 'text'
@@ -159,7 +159,7 @@ class AddCandidate extends Component {
           </FormGroup>
 
           <FormGroup>
-              <div className="form-label">Enter Constituency Number - </div>
+              <div className="form-label">Enter Region ID - </div>
               <div className="form-input">
                 <FormControl
                     input = 'text'

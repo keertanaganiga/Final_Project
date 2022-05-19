@@ -96,8 +96,8 @@ class CandidateDetails extends Component {
           <div className="candidateName">{candidate.name}</div>
           <div className="candidateDetails">
             <div>Party : {candidate.party}</div>
-            <div>Manifesto : {candidate.manifesto}</div>
-            <div>Constituency Number : {candidate.constituency}</div>
+            <div>Education : {candidate.manifesto}</div>
+            <div>Region ID : {candidate.constituency}</div>
             <div>Candidate ID : {candidate.candidateId}</div>
           </div>
         </div>

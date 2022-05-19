@@ -114,8 +114,8 @@ class Vote extends Component {
           <div className="candidateName">{candidate.name}</div>
           <div className="candidateDetails">
             <div>Party : {candidate.party}</div>
-            <div>Manifesto : {candidate.manifesto}</div>
-            <div>Constituency Number : {candidate.constituency}</div>
+            <div>Education : {candidate.manifesto}</div>
+            <div>Region ID : {candidate.constituency}</div>
             <div>Candidate ID : {candidate.candidateId}</div>
           </div>
         </div>
@@ -235,12 +235,13 @@ class Vote extends Component {
           Get Name
         </Button> */}
 
-        {this.state.toggle ? <div>You can only vote to your own constituency</div> : ''}
-
+        {this.state.toggle ? <div>You can only vote to your own Region</div> : ''}
+      
         <div className="CandidateDetails-mid-sub-title">
-          Candidates from your Constituency
+          Candidates from your Region
         </div>
-
+        <br></br>
+        <br></br>
         <div>
           {candidateList}
         </div>

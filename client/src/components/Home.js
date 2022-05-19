@@ -89,13 +89,19 @@ class Home extends Component {
         </div>
         {this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
 
+        <center>
+        <div className="image"></div>
+        </center>
+
         <div className="home">
+        
             WELCOME TO VOTING SYSTEM
             <div>
-                Made by Masoom Raj
-                IIT Jodhpur
+                Team members: Keertana Ganiga, Lavanya D M, Niveditha, Sinchana K N
             </div>
-        </div>
+        </div> 
+        
+    
 
       </div>
     );

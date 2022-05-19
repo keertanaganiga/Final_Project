@@ -112,8 +112,8 @@ class Result extends Component {
                 <div className="candidateName">{candidate.name} : {candidate.voteCount} Votes</div>
                 <div className="candidateDetails">
                   <div>Party : {candidate.party}</div>
-                  <div>Manifesto : {candidate.manifesto}</div>
-                  <div>Constituency Number : {candidate.constituency}</div>
+                  <div>Education : {candidate.manifesto}</div>
+                  <div>Region ID : {candidate.constituency}</div>
                   <div>Candidate ID : {candidate.candidateId}</div>
                 </div>
               </div>
@@ -131,8 +131,8 @@ class Result extends Component {
                 <div className="candidateName">{candidate.name} : {candidate.voteCount} Votes</div>
                 <div className="candidateDetails">
                   <div>Party : {candidate.party}</div>
-                  <div>Manifesto : {candidate.manifesto}</div>
-                  <div>Constituency Number : {candidate.constituency}</div>
+                  <div>Education : {candidate.manifesto}</div>
+                  <div>Region ID : {candidate.constituency}</div>
                   <div>Candidate ID : {candidate.candidateId}</div>
                 </div>
               </div>
@@ -149,7 +149,7 @@ class Result extends Component {
             Loading Web3, accounts, and contract..
             </h1>
           </div>
-        {this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
+        {!(this.state.isOwner) ? <NavigationAdmin /> : <Navigation />}
         </div>
       );
     }
@@ -191,18 +191,19 @@ class Result extends Component {
             </h1>
           </div>
         </div>
-        {this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
+        {!this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
 
 
         <div className="form">
           <FormGroup>
-            <div className="form-label">Enter Constituency Number for results - </div>
+            <div className="form-label">Enter Region ID for results - </div>
             <div className="form-input">
               <FormControl
                   input = 'text'
                   value = {this.state.constituency}
                   onChange={this.updateConstituency}
               />
+              
             </div>
             <Button onClick={this.result} className="button-vote">
               Result
@@ -210,17 +211,19 @@ class Result extends Component {
           </FormGroup>
         </div>
         
-
         <br></br>
-
+        <br></br>
+        <br></br>
+        <br></br>
+     
         {this.state.toggle ? 
-          <div>
+          <div><br></br>
             <div className="CandidateDetails-mid-sub-title">
-              Leaders -
+              Leaders - 
             </div>
             {candidateList}
             <div className="CandidateDetails-mid-sub-title">
-              Constituency Votes -
+              Region Votes -
             </div>
             {candidateList2}
           </div>
