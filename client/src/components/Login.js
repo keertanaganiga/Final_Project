@@ -4,7 +4,7 @@ import firebase from './firebase'
 const aadhaar_no_phone_no = new Map();
 
 aadhaar_no_phone_no.set('515507675948', 7349072145);
-aadhaar_no_phone_no.set('904505224974', 8072678067);
+aadhaar_no_phone_no.set('904505224974', 9731008301);
 
 
 

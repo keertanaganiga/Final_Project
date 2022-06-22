@@ -9,8 +9,8 @@ import Vote from './components/Vote';
 import Result from './components/Result';
 import Admin from './components/Admin';
 import Home from './components/Home';
-// import Login from './components/Login'
-// import * as serviceWorker from './serviceWorker';
+import Login from './components/Login'
+ import * as serviceWorker from './serviceWorker';
 
 import { Router, Switch, Route } from 'react-router-dom';
 import history from './history';
@@ -26,7 +26,6 @@ ReactDOM.render(
     <Router history={history}>
         <Switch>
             <Route  path='/Home' component={Home} />
-            {/* <Route  path='/' component={Login} /> */}
             <Route path='/AddCandidate' component={AddCandidate} />
             <Route path='/CandidateDetails' component={CandidateDetails} />
             <Route path='/RequestVoter' component={RequestVoter} />
@@ -34,9 +33,10 @@ ReactDOM.render(
             <Route path='/Vote' component={Vote} />
             <Route path='/Result' component={Result} />
             <Route path='/Admin' component={Admin} />
+            <Route  path='/' component={Login} />
         </Switch>
     </Router>,
     document.getElementById('root')
 );
 
-// serviceWorker.unregister();
+ serviceWorker.unregister();
