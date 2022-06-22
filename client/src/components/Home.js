@@ -83,7 +83,7 @@ class Home extends Component {
         <div className="CandidateDetails">
           <div className="CandidateDetails-title">
             <h1>
-              ADMIN PORTAL
+               PORTAL
             </h1>
           </div>
         </div>
@@ -96,12 +96,10 @@ class Home extends Component {
         <div className="home">
         
             WELCOME TO VOTING SYSTEM
-            <div>
+            {/* <div>
                 Team members: Keertana Ganiga, Lavanya D M, Niveditha, Sinchana K N
-            </div>
+            </div> */}
         </div> 
-        
-    
 
       </div>
     );

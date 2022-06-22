@@ -134,7 +134,7 @@ class RequestVoter extends Component {
 
         <div className="form">
         <FormGroup>
-            <div className="form-label">Enter Name - </div>
+            <div className="form-label">Enter Name </div>
             <div className="form-input">
               <FormControl
                   input = 'text'
@@ -145,7 +145,7 @@ class RequestVoter extends Component {
         </FormGroup>
 
         <FormGroup>
-            <div className="form-label">Enter Voter ID - </div>
+            <div className="form-label">Enter USN </div>
             <div className="form-input">
               <FormControl
                   input = 'textArea'
@@ -156,7 +156,7 @@ class RequestVoter extends Component {
         </FormGroup>
 
         <FormGroup>
-            <div className="form-label">Enter Region ID - </div>
+            <div className="form-label">Enter ROLE </div>
             <div className="form-input">
               <FormControl
                   input = 'text'

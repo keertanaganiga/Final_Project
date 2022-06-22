@@ -89,9 +89,9 @@ class VerifyVoter extends Component {
           <div className="candidate">
             <div className="candidateName">{voter.name}</div>
             <div className="candidateDetails">
-              <div>Aadhar : {voter.aadhar}</div>
-              <div>Region : {voter.constituency}</div>
-              <div>Voter Address : {voter.voterAddress}</div>
+              <div>USN : {voter.aadhar}</div>
+              <div>ROLE : {voter.constituency}</div>
+              {/* <div>Voter Address : {voter.voterAddress}</div> */}
             </div>
 
             {voter.isVerified ? <Button className="button-verified">Verified</Button> : <Button onClick={this.verifyVoter} value={voter.voterAddress} className="button-verify">Verify</Button>}
@@ -131,7 +131,7 @@ class VerifyVoter extends Component {
         <div className="CandidateDetails">
           <div className="CandidateDetails-title">
             <h1>
-              Verify Voters
+              VARIFY VOTERS
             </h1>
           </div>
         </div>

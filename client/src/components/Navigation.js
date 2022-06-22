@@ -5,6 +5,7 @@ class Navigation extends Component {
     render() {
         return (
             <div className='navbar'>
+                    <div className="Admin">VOTER</div>
                     <Link to ='/Home' className ="heading">HOME</Link>
                     <Link to='/CandidateDetails'>CANDIDATES</Link>
                     <Link to='/RequestVoter'>APPLY FOR VOTER</Link>

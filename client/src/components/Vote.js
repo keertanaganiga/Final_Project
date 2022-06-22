@@ -159,10 +159,11 @@ class Vote extends Component {
           </h1>
         </div>
 
+        
+        {this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
         <div className="CandidateDetails-sub-title">
         Please Wait.....While election starts !
         </div>
-        {this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
         </div>
       );
     }
@@ -177,11 +178,15 @@ class Vote extends Component {
             </h1>
           </div>
 
-          <div className="CandidateDetails-sub-title">
+          {/* <div className="CandidateDetails-sub-title">
+          Please wait....the verification can take time
+          </div> */}
+        {this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
+        <div className="CandidateDetails-sub-title">
           Please wait....the verification can take time
           </div>
-        {this.state.isOwner ? <NavigationAdmin /> : <Navigation />}
           </div>
+          
         );
       }
     }
@@ -247,8 +252,10 @@ class Vote extends Component {
         </div>
 
       </div>
+      
     );
   }
 }
+
 
 export default Vote;

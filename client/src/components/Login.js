@@ -3,9 +3,8 @@ import firebase from './firebase'
 
 const aadhaar_no_phone_no = new Map();
 
-aadhaar_no_phone_no.set('515507675948', 7349072145);
-aadhaar_no_phone_no.set('904505224974', 9731008301);
-
+aadhaar_no_phone_no.set('4al18cs053', 7349072145);
+aadhaar_no_phone_no.set('4al18cs041', 9591548957);
 
 
 class Login extends React.Component {
@@ -76,7 +75,7 @@ class Login extends React.Component {
           <h2>Login Form</h2>
           <form onSubmit={this.onSignInSubmit}>
             <div id="sign-in-button"></div>
-            <input type="number" name="aadhar" placeholder="Aadhar number" required onChange={this.handleChange}/>
+            <input type="text" name="aadhar" placeholder="USN number" required onChange={this.handleChange}/>
             <button type="submit">Submit</button>
           </form>
 

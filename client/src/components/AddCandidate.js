@@ -126,7 +126,7 @@ class AddCandidate extends Component {
 
         <div className="form">
           <FormGroup>
-            <div className="form-label">Enter Name - </div>
+            <div className="form-label">ENTER NAME</div>
             <div className="form-input">
               <FormControl
                 input = 'text'
@@ -137,7 +137,7 @@ class AddCandidate extends Component {
           </FormGroup>
 
           <FormGroup>
-              <div className="form-label">Enter Party Name - </div>
+              <div className="form-label">ENTER GENDER </div>
               <div className="form-input">
                 <FormControl
                     input = 'textArea'
@@ -148,7 +148,7 @@ class AddCandidate extends Component {
           </FormGroup>
 
           <FormGroup>
-              <div className="form-label">Enter Education - </div>
+              <div className="form-label">ENTER USN </div>
               <div className="form-input">
                 <FormControl
                     input = 'text'
@@ -159,7 +159,7 @@ class AddCandidate extends Component {
           </FormGroup>
 
           <FormGroup>
-              <div className="form-label">Enter Region ID - </div>
+              <div className="form-label">ENTER ROLE</div>
               <div className="form-input">
                 <FormControl
                     input = 'text'
