@@ -8,7 +8,7 @@
 - Fills the **Voter Form**.
 - Admin verifies the voter based on his data.
 - Can view all Candidate Details.
-- After voting starts, voter can voter for a candidate of their constituency.
+- After voting starts, voter can voter for a candidate of their choice.
 
 ## Admin
 - Adds **Candidate Details**.
@@ -26,7 +26,7 @@ Metamask or ganache-cli
 ### Installing
 Clone the repository
 ```
-git clone https://github.com/maasoomraj/Microsoft_2k19.git VoteChain
+git clone https://github.com/keertanaganiga/Final_Project.git VoteChain
 ```
 Change directory to /VoteChain
 ```
@@ -65,7 +65,5 @@ Run the server
 npm start
 ```
 ## Authors
-- **Masoom Raj**
+- **Team 8(Keertana Ganiga,Lavanyan D M,Niveditha,Sinchana**
 
-## Motivation
-This Decentralised application has been developed as a submission for Microsoft CodeFunDo++ 2019.
