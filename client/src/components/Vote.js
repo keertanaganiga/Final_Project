@@ -113,9 +113,9 @@ class Vote extends Component {
           <div className="candidate">
           <div className="candidateName">{candidate.name}</div>
           <div className="candidateDetails">
-            <div>Party : {candidate.party}</div>
-            <div>Education : {candidate.manifesto}</div>
-            <div>Region ID : {candidate.constituency}</div>
+            <div>GENDER : {candidate.party}</div>
+            <div>USN : {candidate.manifesto}</div>
+            <div>BRANCH Id : {candidate.constituency}</div>
             <div>Candidate ID : {candidate.candidateId}</div>
           </div>
         </div>

@@ -159,7 +159,7 @@ class AddCandidate extends Component {
           </FormGroup>
 
           <FormGroup>
-              <div className="form-label">ENTER ROLE</div>
+              <div className="form-label">ENTER BRANCH Id</div>
               <div className="form-input">
                 <FormControl
                     input = 'text'

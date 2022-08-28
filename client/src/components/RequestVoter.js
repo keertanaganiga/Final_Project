@@ -156,7 +156,7 @@ class RequestVoter extends Component {
         </FormGroup>
 
         <FormGroup>
-            <div className="form-label">Enter ROLE </div>
+            <div className="form-label">Enter BRANCH Id </div>
             <div className="form-input">
               <FormControl
                   input = 'text'

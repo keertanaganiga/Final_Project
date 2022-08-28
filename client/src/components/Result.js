@@ -132,7 +132,7 @@ class Result extends Component {
                 <div className="candidateDetails">
                   <div>NAME : {candidate.party}</div>
                   <div>USN : {candidate.manifesto}</div>
-                  <div>ROLE : {candidate.constituency}</div>
+                  <div>BRANCH Id : {candidate.constituency}</div>
                   <div>Candidate ID : {candidate.candidateId}</div>
                 </div>
               </div>
@@ -196,7 +196,7 @@ class Result extends Component {
 
         <div className="form">
           <FormGroup>
-            <div className="form-label">Enter Region ID for results - </div>
+            <div className="form-label">Enter Branch ID for results - </div>
             <div className="form-input">
               <FormControl
                   input = 'text'
@@ -219,11 +219,11 @@ class Result extends Component {
         {this.state.toggle ? 
           <div><br></br>
             <div className="CandidateDetails-mid-sub-title">
-              Leaders - 
+              LEADERS
             </div>
             {candidateList}
             <div className="CandidateDetails-mid-sub-title">
-              Votes -
+              VOTES
             </div>
             {candidateList2}
           </div>

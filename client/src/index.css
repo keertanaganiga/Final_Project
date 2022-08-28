@@ -15,6 +15,26 @@ body {
   background-repeat: no-repeat;
 }
 
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+} 
+
+th,td {
+  border: 2px solid black;
+}
+
+table.a {
+  table-layout: auto;
+  width: 180px;  
+}
+p,th,td.thicker {
+  font-weight: 500;
+  font-size: 130%;
+}
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -111,6 +131,7 @@ code {
   left: 250px;
 }
 
+
 .form-label{
   background-color: transparent;
   display: flex;
@@ -149,13 +170,15 @@ code {
 }
 
 .CandidateDetails-mid-sub-title{
-  background-color: black;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #000000;
+  padding-top: 45PX;
+  color: black;
+  font-weight: bold;
   width: 90%;
   margin: 50px;
 }

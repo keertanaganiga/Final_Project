@@ -90,7 +90,7 @@ class VerifyVoter extends Component {
             <div className="candidateName">{voter.name}</div>
             <div className="candidateDetails">
               <div>USN : {voter.aadhar}</div>
-              <div>ROLE : {voter.constituency}</div>
+              <div>BRANCH Id : {voter.constituency}</div>
               {/* <div>Voter Address : {voter.voterAddress}</div> */}
             </div>
 
@@ -131,7 +131,7 @@ class VerifyVoter extends Component {
         <div className="CandidateDetails">
           <div className="CandidateDetails-title">
             <h1>
-              VARIFY VOTERS
+              VERIFY VOTERS
             </h1>
           </div>
         </div>
